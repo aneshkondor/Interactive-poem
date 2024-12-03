@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Poem: Flight Toward New Opportunities</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Beyond Borders</h1>
+        <p>Hover over the highlighted parts of the poem to explore more about Sangeetha's life. On small screens, tap for details.</p>
+    </header>
+    <main>
+        <section class="poem">
+            <p>
+                Under <span class="highlight" data-detail="Sangeetha and her husband left their homeland, driven by shared dreams of a better future in America.">homeland skies</span>, dreams awoke,<br>
+                Bound by home, with emotions untold.<br>
+                <span class="highlight" data-detail="Together, they embraced a new chapter, leaving family and familiarity behind.">“A final embrace, love burning bright,</span><br>
+                A step into darkness, chasing light.”
+            </p>
+            <p>
+                In America’s tech world, she began her quest,<br>
+                Balancing work and studies, she gave her best.<br>
+                <span class="highlight" data-detail="Though skilled in technology, she longed to follow her true passion: business and leadership.">“Yet something stirred, deep within,</span><br>
+                A calling to rise, and begin again.”
+            </p>
+            <p>
+                <span class="highlight" data-detail="She envisioned a school where her children and others could learn in a system she believed in.">“A dream for her family,”</span> a future in sight,<br>
+                A school she built, with love as her light.<br>
+                Through every challenge, she paved her own way,<br>
+                <span class="highlight" data-detail="Her school became a beacon of hope, empowering young minds to follow their passion.">“Building a legacy that shines each day.”</span>
+            </p>
+            <p>
+                Now she reflects, with wisdom and grace,<br>
+                A life well-lived, a meaningful space.<br>
+                Her message clear, her voice profound:<br>
+                <span class="highlight" data-detail="Sangeetha's life shows that challenges hold lessons and hope for growth and resilience.">“In every challenge, hope is found.”</span>
+            </p>
+        </section>
+        <div id="tooltip-box" class="hidden">
+            <span id="close-tooltip">&times;</span>
+            <p id="tooltip-text"></p>
+        </div>
+    </main>
+    <footer>
+        <p>Interactive Poem: Sangeetha's Journey | Designed by Anesh Kondor</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

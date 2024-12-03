@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.poem {
+    font-size: 1.2em;
+    line-height: 1.8;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.highlight {
+    background-color: #ffeeba;
+    cursor: pointer;
+    position: relative;
+}
+
+#tooltip-box {
+    position: absolute;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    max-width: 300px;
+    white-space: normal;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    z-index: 1000;
+    display: none;
+    margin-left: 10px;
+}
+
+#tooltip-box.small-screen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    text-align: center;
+    z-index: 1000;
+    padding: 20px;
+    background-color: #444;
+}
+
+#close-tooltip {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: white;
+}
+
+#tooltip-box.small-screen #close-tooltip {
+    display: inline;
+}
