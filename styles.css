@@ -84,14 +84,14 @@ footer {
     text-align: center;
     padding: 15px;
     font-size: 0.9em;
-    position: fixed; /* Sticks to the bottom of the page */
+    position: fixed;
     bottom: 0;
     width: 100%;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for a polished look */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
 }
 
 footer p {
-    margin: 0; /* Removes unnecessary margin */
+    margin: 0;
     line-height: 1.5;
 }
 
