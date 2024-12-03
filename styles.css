@@ -77,3 +77,29 @@ main {
 #tooltip-box.small-screen #close-tooltip {
     display: inline;
 }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    position: fixed; /* Sticks to the bottom of the page */
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for a polished look */
+}
+
+footer p {
+    margin: 0; /* Removes unnecessary margin */
+    line-height: 1.5;
+}
+
+footer a {
+    color: #ffeeba;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
